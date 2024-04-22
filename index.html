@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5</title>
+
+    <!-- link ng bootstrap every time na nag rarun yung website -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Sulsolicitor</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About me
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#collapseOne">Interests</a></li>
+                  <li><a class="dropdown-item" href="#accordionExample">Skills</a></li>
+                  <li><a class="dropdown-item" href="#collapseThree">About me</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://hotelsogo.com">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://linkedin.com">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+          </div>
+        </div>
+      </nav>
+
+      
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="434152010_1122388419032468_2340266673994606036_n.jpg" height="800px" width="1000px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="91066371_239334754004510_3184715999421136896_n.jpg"height="800px" width="1000px" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="81384347_164114021526584_6052540352441614336_n.jpg"height="800px" width="1000px" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+  <div class="x" id="accordionExample">
+    <h3>ABOUT ME</h3>
+    <h5>Name: Clyde Leix Chavez</h5>
+    <h5> Occupation: Standby</h5>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          My Interests
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>My interests </strong> I have a diverse range of interests that keep me engaged both in and out of the office. I'm an avid hiker and outdoor enthusiast, always seeking new trails and adventures to explore. Photography is another passion of mine; I love capturing the beauty of nature and the world around me through my lens. Additionally, I'm a dedicated reader, particularly drawn to the imaginative realms of science fiction novels.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Skills
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>As a software engineer, </strong> I bring a wealth of technical skills to the table. I'm proficient in programming languages like Java, Python, and JavaScript, and I have experience working with various web development frameworks, including React and Angular. My problem-solving abilities and analytical mindset allow me to tackle complex challenges with confidence and creativity.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          About Me
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>In both my personal and professional life, </strong> I thrive on curiosity and continuous learning. I'm passionate about leveraging technology to make a positive impact and solve real-world problems. Outside of work, you'll often find me on a hiking trail, camera in hand, or immersed in the pages of a captivating sci-fi novel. I believe in embracing new experiences and pushing boundaries to unlock my full potential.
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <footer class="footer mt-auto py-3 bg-light">
+    <div class="container text-center gap-50 ">
+      <span class="text-muted">Feel free to reach out to me via email at jane.doe@example.com or connect with me on LinkedIn at linkedin.com/in/janedoe. I'm always open to new opportunities, collaborations, and meaningful conversations.
+
+      </span>
+    </div>
+  </footer>
+
+
+  <!-- Bundler -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
